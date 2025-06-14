@@ -1,0 +1,42 @@
+body {
+  font-family: Verdana, sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+input, button {
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+#lista-tareas {
+  list-style: none;
+  padding: 0;
+}
+
+.tarea-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.texto-tarea {
+  flex: 1;
+  text-align: left;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.acciones button {
+  padding: 4px 10px;
+  cursor: pointer;
+}

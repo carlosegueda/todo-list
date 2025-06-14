@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="design.css" />
+  <link rel="stylesheet" href="containers.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  
+</head>
+<body>
+    <div class="contenedor0">
+        <h1>TO DO LIST</h1>
+    </div>
+  
+  <hr>
+
+  <div class="contenedor1">
+    <form id="form-tarea">
+      <label for="tarea">Agregar Tarea:</label>
+      <input id="tarea" name="tarea" placeholder="Ingrese una tarea..." autocomplete="off" />
+      <button type="submit">Agregar</button>
+    </form>
+  </div>
+
+  <hr>
+
+  <div class="contenedor2">
+    <h2 contenteditable="true" id="nombre-lista">TITULO</h2>
+    <ul id="lista-tareas"></ul>
+    <button id="borrar-todo">Eliminar Todas</button>
+    <button id="confirmar-borrado" style="display: none;">¿Estás seguro?</button>
+    <button id="btn-descargar">Descargar PDF</button>
+
+  </div>
+
+  <script src="code.js"></script>
+</body>
+</html>

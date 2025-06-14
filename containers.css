@@ -1,0 +1,45 @@
+
+.contenedor0 {
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #ceaadf;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    line-height: 3.5;
+}
+
+
+.contenedor1 {
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #ceaadf;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    line-height: 3.5;
+}
+
+.contenedor2 {
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #ceaadf;
+}
+
+.contenedor3 {
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #ceaadf;
+}
+
+
